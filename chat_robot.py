@@ -14,6 +14,8 @@ def get_robot_reply(question):
     '''
     if "你叫什么名字？" in question:
         answer = "我是jun哥"
+    elif "你的生日是多少？" in question:
+        answer = "10.22"
     elif "你几岁了？" in question:
         answer = "10"
     elif "你是男还是女？" in question:
